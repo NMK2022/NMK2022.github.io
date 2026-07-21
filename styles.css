@@ -1,1 +1,29 @@
 /* css styles */
+/* Title */
+.quarto-about-trestles .about-contents h1.title {
+  text-align: center;
+  margin 0 0 1rem 0;
+  padding 0;
+}
+
+/* Paragraphs */
+.quarto-about-trestles .about-contents p {
+  font-size: 1.4rem;
+  margin 0 0 1rem 0;
+}
+
+/* Reduce blank space before footer */
+#quarto-content,
+#quarto-document-content,
+main.content,
+.page-columns,
+.column-page {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer.footer,
+.nav-footer {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  )
