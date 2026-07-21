@@ -106,14 +106,14 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-    footnotes-hover: true
-    code-copy: true
-    code-link: true
-    code-overflow: wrap
-    fig-align: center
-    link-external-newwindow: true
-    email-obfuscation: javascript
+    #toc: true
+    #footnotes-hover: true
+    #code-copy: true
+    #code-link: true
+    #code-overflow: wrap
+    #fig-align: center
+    #link-external-newwindow: true
+    #email-obfuscation: javascript
     link-external-filter: '^(?:http:|https:)\/\/NMK2022\.github\.io\/custom'
  
 
