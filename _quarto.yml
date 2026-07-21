@@ -11,7 +11,7 @@ project:
 website:
   title: "Nita Kanney, MPH"
   image: files/images/nk headshot epi.JPG
-  favicon: docs/favicon-32x32.png
+  favicon: docs/android-chrome-512x512.png
   description: "PhD Candidate at the University of Michigan School of Public Health"
  
   navbar:
