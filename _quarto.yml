@@ -5,90 +5,95 @@ project:
     - python xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
     
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+#description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+#author-meta: "Nita Kanney, MPH"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  title: "Nita Kanney, MPH"
+  image: images/nKheadshot.jpg
+  favicon: images/logo.png
+  description: "PhD Candidate at the University of Michigan School of Public Health"
  
   navbar:
+    logo: images/logo.png
     background: light  # You can change the background color here
 
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
+    right:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
       - text: About
-        menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
+         href: about.qmd
+       # menu:
+        #  - text: News
+         #   href: posts.qmd#category=news
+         # - text: Events
+          #  href: posts.qmd#category=event      
+         # - text: Contact
+         #   href: contact.qmd             
       - text: Research
-        menu:
-          - text: Publications Listing  # Automatically generated from publications.xlsx
-            href: pub-listing.qmd
-          - text: Publications  # Manually curated list of publications
-            href: publications.qmd            
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+          menu:
+            - text: Publications Listing  # Automatically generated from publications.xlsx
+              href: pub-listing.qmd
+         # - text: Publications  # Manually curated list of publications
+          #  href: publications.qmd            
+       #   - text: Selected Papers
+        #    href: posts.qmd#category=paper
+            - text: Grants
+              href: projects.qmd                                
+        - text: Teaching # Comment the Teaching part out to remove the Teaching page
+          href: teaching.qmd
+        - text: Outreach
+          menu:        
+          - text: Presentations
+            href: posts.qmd#category=presentation                   
+      #- text: Group   # Comment the Group part out to remove the Group page
+      #  href: people.qmd
+        - text: CV
+          href: files/nsf-biosketch.pdf
 
-    right: 
-      - text: CV
-        href: files/nsf-biosketch.pdf
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
+    #right: 
+    #  - text: CV
+     #     href: files/nsf-biosketch.pdf
+     # - icon: github
+     #     href: https://github.com/drganghe/quarto-academic-website-template
+      #    target: _blank
+     # - text: "{{< fa brands bluesky >}}"
+     #     href: https://bsky.app
+     #     target: _blank      
+     # - icon: rss
+      #    href: posts.xml
+       #   target: _blank
   
   page-navigation: true
+  back-to-top-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: >- 
+    &#169; "<script>document.write(new Date().getFullYear())</script>" Nita Kanney &#8729; Made with [Quarto](https://github.com/drganghe/quarto-academic-website-template)
+    # center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/NMK2022
         target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
+      <a class="link-dark me-1" href="https://linkedin.com/in/nitak" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/NMK2022" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0002-8060-2356" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&user=CrSSym8AAAAJ" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
   
-  search:
-    location: navbar
-    type: textbox
+ # search:
+  #  location: navbar
+   # type: textbox
   
   reader-mode: true
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+  #repo-url: https://github.com/drganghe/quarto-academic-website-template
 #  repo-actions: [edit, issue, source]
   
   open-graph: true
   
-  twitter-card: true 
+ # twitter-card: true 
 #  card-style: summary      
   
   site-url: "https://drganghe.github.io/quarto-academic-website-template"
@@ -112,6 +117,6 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
+    link-external-filter: '^(?:http:|https:)\/\/NMK2022\.github\.io\/custom'
     include-in-header: "files/includes/_academic.qmd"
 
