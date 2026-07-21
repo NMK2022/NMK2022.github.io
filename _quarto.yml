@@ -11,11 +11,11 @@ project:
 website:
   title: "Nita Kanney, MPH"
   image: files/images/nk headshot epi.JPG
-  favicon: favicon-32x32.png
+  favicon: docs/favicon-32x32.png
   description: "PhD Candidate at the University of Michigan School of Public Health"
  
   navbar:
-    logo: favicon-32x32.png
+    logo: docs/favicon-32x32.png
     background: light  # You can change the background color here
 
     right:   # You can comment out all navigation items here if you just like to keep the index page only
