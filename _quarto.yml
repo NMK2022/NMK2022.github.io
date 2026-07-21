@@ -15,8 +15,7 @@ website:
   description: "PhD Candidate at the University of Michigan School of Public Health"
  
   navbar:
-    logo: docs/favicon-32x32.png
-    background: light  # You can change the background color here
+    background: navy  # You can change the background color here
 
     right:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
