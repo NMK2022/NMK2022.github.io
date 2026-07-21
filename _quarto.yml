@@ -15,13 +15,12 @@ website:
   description: "PhD Candidate at the University of Michigan School of Public Health"
  
   navbar:
-    background: navy  # You can change the background color here
-
+    background: "#12236b"  # You can change the background color here
     right:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
       - text: About
-         href: about.qmd
+        href: about.qmd
        # menu:
         #  - text: News
          #   href: posts.qmd#category=news
@@ -30,7 +29,7 @@ website:
          # - text: Contact
          #   href: contact.qmd             
       - text: Research
-          menu:
+        menu:
             - text: Publications Listing  # Automatically generated from publications.xlsx
               href: pub-listing.qmd
          # - text: Publications  # Manually curated list of publications
@@ -70,7 +69,7 @@ website:
     left: >- 
     &#169; "<script>document.write(new Date().getFullYear())</script>" Nita Kanney &#8729; Made with [Quarto](https://github.com/drganghe/quarto-academic-website-template)
     # center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
+    right:  >-
       - icon: github
         href: https://github.com/NMK2022
         target: _blank
