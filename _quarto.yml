@@ -10,12 +10,12 @@ project:
 
 website:
   title: "Nita Kanney, MPH"
-  image: images/nKheadshot.jpg
-  favicon: images/logo.png
+  image: files/images/nk headshot epi.JPG
+  favicon: files/images/favicon-16x16.png
   description: "PhD Candidate at the University of Michigan School of Public Health"
  
   navbar:
-    logo: images/logo.png
+    logo: files/images/favicon-32x32.png
     background: light  # You can change the background color here
 
     right:   # You can comment out all navigation items here if you just like to keep the index page only
@@ -49,7 +49,7 @@ website:
       #- text: Group   # Comment the Group part out to remove the Group page
       #  href: people.qmd
         - text: CV
-          href: files/nsf-biosketch.pdf
+          href: files/KanneyN_CV_April092026.pdf
 
     #right: 
     #  - text: CV
