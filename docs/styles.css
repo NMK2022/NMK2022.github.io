@@ -13,22 +13,19 @@
   order: 1;
   text-align: left;
   position: static;
-  max-width: 888px;
 }
 
 /* Fix Picture Sizing */
 .quarto-about-trestles .about-entity img,
 .quarto-about-trestles .about-entity img.about-image {
   display: block;
-  max-width: 777px;
 }
 
 /* Text to Right of Picture */
 .quarto-about-trestles .about-contents {
   order: 2;
   text-align: right;
-  max-width: 555px;
-  padding: 0;
+  padding: 0.2;
 }
 
 
