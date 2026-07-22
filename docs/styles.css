@@ -18,15 +18,14 @@
 /* Fix Picture Sizing */
 .quarto-about-trestles .about-entity img,
 .quarto-about-trestles .about-entity img.about-image {
-  display: block;
-  max-width: 333px;
+max-width: 333px;
 }
 
 /* Text to Right of Picture */
 .quarto-about-trestles .about-contents {
   order: 2;
   text-align: right;
-  padding: 0.2;
+  padding: 2;
 }
 
 
