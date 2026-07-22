@@ -3,13 +3,15 @@
 /* Change Home Page Orientation */
 .quarto-about-trestles.column-page,
 .quarto-about-trestles {
+  display: flex;
+  flex-direction: column;
   max-width: 900px;
 } 
 
-/* Make Picture Appear On Left of Text */
+/* Make Picture Appear On Top of Text */
 .quarto-about-trestles .about-entity {
   order: 1;
-  text-align: left;
+  text-align: center;
   position: static;
 }
 
@@ -19,10 +21,10 @@
 max-width: 333px;
 }
 
-/* Text to Right of Picture */
+/* Text Under Picture */
 .quarto-about-trestles .about-contents {
   order: 2;
-  text-align: right;
+  text-align: center;
   padding: 2;
 }
 
