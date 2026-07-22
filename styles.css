@@ -23,14 +23,14 @@
 .quarto-about-trestles .about-entity img,
 .quarto-about-trestles .about-entity img.about-image {
   display: block;
-  max-width: 900px;
+  max-width: 500px;
 }
 
 /* Text Under Picture */
 .quarto-about-trestles .about-contents {
   order: 2;
   text-align: center;
-  max-width: 850px;
+  max-width: 555px;
   padding: 0;
   grid-column: 1 / -1;
 }
