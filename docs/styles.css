@@ -1,12 +1,12 @@
 /* css styles */
 
-/* Change Home Page Orientation */ 
+/* Change Home Page Orientation 
 .quarto-about-trestles.column-page,
 .quarto-about-trestles {
   display: flex;
   flex-direction: column;
   max-width: 900px;
-}
+}*/ 
 
 /* Make Picture Appear On Left of Text */
 .quarto-about-trestles .about-entity {
