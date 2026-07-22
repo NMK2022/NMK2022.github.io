@@ -19,6 +19,7 @@
 .quarto-about-trestles .about-entity img,
 .quarto-about-trestles .about-entity img.about-image {
   display: block;
+  max-width: 333px;
 }
 
 /* Text to Right of Picture */
@@ -32,14 +33,15 @@
 /* Title */
 .quarto-about-trestles .about-contents h1.title {
   text-align: left;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0rem 0;
   padding: 0;
 }
 
 /* Paragraphs */
 .quarto-about-trestles .about-contents p {
   font-size: 1.1rem;
-  margin: 0 0 0rem 0;
+  margin: 0 0 2rem 0;
+  padding-right: 2rem;
 }
 
 /* Reduce blank space before footer */
@@ -58,5 +60,6 @@ footer.footer,
   margin-top: 0rem;
   padding-top: 0rem;
   padding-bottom: 0.1rem;
+  padding-right: 2rem;
 }
 /* css styles */
