@@ -3,16 +3,26 @@
 /* Change Home Page Orientation */
 .quarto-about-trestles.column-page,
 .quarto-about-trestles {
-  display: flex;
-  flex-direction: column;
-  max-width: 900px;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  max-width: 900px !important;
+  padding-bottom: 0 !important;
 } 
 
 /* Make Picture Appear On Top of Text */
 .quarto-about-trestles .about-entity {
-  order: 1;
-  text-align: center;
-  position: static;
+  order: 1 !important;
+  text-align: center !important;
+  position: static !important;
+  width: 100%;
+  margin: 0 auto 1rem auto;
+  padding: 0;
+
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
 }
 
 /* Fix Picture Sizing */
@@ -38,7 +48,7 @@ max-width: 333px;
 
 /* Paragraphs */
 .quarto-about-trestles .about-contents p {
-  font-size: 1.1rem;
+  font-size: 1.1rem !important;
   margin: 0 0 2rem 0;
   padding-right: 2rem;
 }
@@ -55,10 +65,12 @@ main.content,
 
 footer.footer,
 .nav-footer {
-  font-size: 0.95rem;
-  margin-top: 0rem;
-  padding-top: 0rem;
-  padding-bottom: 0.1rem;
-  padding-right: 2rem;
+  font-size: 0.95rem !important;
+  margin-top: 1rem !important;
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem !important;
+  padding-right: 2rem !important;
+
+  border-top: 1px solid #dddddd !important;
 }
 /* css styles */
