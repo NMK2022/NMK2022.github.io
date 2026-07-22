@@ -1,11 +1,10 @@
 /* css styles */
 
-/* Change Home Page Orientation */
+/* Change Home Page Orientation */ 
 .quarto-about-trestles.column-page,
 .quarto-about-trestles {
   display: flex;
   flex-direction: column;
-  align-items: center;
   max-width: 900px;
 }
 
