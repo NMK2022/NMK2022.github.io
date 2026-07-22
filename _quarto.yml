@@ -15,7 +15,7 @@ website:
   description: "PhD Candidate at the University of Michigan School of Public Health"
  
   navbar:
-    background: "#12236b"  # You can change the background color here
+    background: dark  # You can change the background color here
     right:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
