@@ -17,8 +17,8 @@ This repository contains the code files and images related to my personal websit
 This project was created with:
 
 * Homebrew Version 6.0.9
-* Git Version 2.50.1 
-* R Studio Version 4.5.3
+* Git Version 2.55.0 
+* R Studio Version 2026.07.1+147 
 * 2023 Macbook Pro with 16GB running macOS Sequoia 15.7.7 
 
 ##
