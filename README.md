@@ -18,7 +18,7 @@ This project was created with:
 
 * Homebrew Version 6.0.9
 * Git Version 2.55.0 
-* R Studio Version 2026.07.1+147 
+* R Studio Version 4.6.1
 * 2023 Macbook Pro with 16GB running macOS Sequoia 15.7.7 
 
 ##
