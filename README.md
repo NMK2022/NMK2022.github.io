@@ -1,18 +1,74 @@
-# Quarto Academic Website Template
+# Personal Website 
+![](files/images/logo.png)
+## 
+This repository contains the code files and images related to my personal website. The layout of the website uses the Quarto Academic Website [Template](https://drganghe.github.io/quarto-academic-website-template/). However, I have included updated the template to include my personal information and some changes to the page layouts.
+
+<br>
+
+## Table of Contents
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [R Coding Resource](#r-coding-resources)
+* [Acknowledgments](#acknowledgments)
+
+##
+
+### Technologies
+This project was created with:
+
+* Homebrew Version 6.0.9
+* Git Version 2.50.1 
+* R Studio Version 4.5.3
+* 2023 Macbook Pro with 16GB running macOS Sequoia 15.7.7 
+
+##
+
+### Setup
+Install the following packages
+1. [RStudio](https://posit.co/download/rstudio-desktop/)
+2. [Set up Git and GitHub](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r)
+3. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch)
+4. [Quarto Academic Template](https://drganghe.github.io/quarto-academic-website-template/)
+   
+In addition, the following packages were installed via the console in R Studio:
+
+```
+> install.packages("tidyverse")
+> install.packages("quarto")
+> install.packages("dplyr")
+> install.packages("usethis")
+> install.packages("gitcreds")
+```
+
+##
+
+### R Coding Resources
+Below are links to additional R Studio setup help:
+
+[Documentation for Installing RStudio
+](https://rstudio-education.github.io/hopr/starting.html)
+
+[Video Walkthrough of Installing RStudio for Mac and Windows](https://youtu.be/R9yIexc5T2g?si=FAuGyd1GeV7c3cQD)
+
+##
+
+### Acknowledgments
+Thank you to the Bakulski lab team for your continued support and expertise!
+
+The following pages were used for coding and creating this repo:
+* My repo for the edx [Harvard-cs50x](https://github.com/NMK2022/Harvard-cs50x) online course for additional HTML/CSS options
+* https://epirhandbook.com/en/index.html
+* https://r4ds.had.co.nz
+* https://docs.github.com/en/pages/quickstart
+* https://www.w3schools.com/w3css/w3css_templates.asp 
+* https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r
+* https://rcdsdocs.it.northwestern.edu/tutorials/r/git-with-r.html
+* https://www.r-bloggers.com/2017/04/r-best-practices-r-you-writing-the-r-way/
+* https://happygitwithr.com/
+
+
 
 Welcome! This is a simple and customizable template for building your own academic website using [Quarto](https://quarto.org/). You can easily fork, edit, and publish your site with just a few steps.
-
-## 🚀 Quick Start
-
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Test to publish** your site using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Check** if your website works or not. If successful, you should see exactly the same website as [this one](https://drganghe.github.io/quarto-academic-website-template/) using your own Github Pages url:
-   - `https://YourGitHubUserName.github.io` if your repository name is `YourGitHubUserName.github.io`
-   - `https://YourGitHubUserName.github.io/RepositoryName` for other `RepositoryName`
-   - Errors:
-      - If [404](/files/images/Error1.png), it is likely you haven't set up GitHub Pages
-      - If it shows the [README](/files/images/Error2.png) file, it is likely you've published from the `root` folder, not the `docs` directory
 
 If you achieve this milestone, congratulations! You are now ready to start updating your website:
 
