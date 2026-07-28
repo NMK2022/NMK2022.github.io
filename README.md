@@ -1,5 +1,5 @@
 # Personal Website 
-![](files/images/logo.png)
+![](files/images/4x4logo.png)
 ## 
 This repository contains the code files and images related to my personal website. The layout of the website uses the Quarto Academic Website [Template](https://drganghe.github.io/quarto-academic-website-template/). However, I have included updated the template to include my personal information and some changes to the page layouts.
 
